@@ -2,6 +2,7 @@
 /**
  * @package WordPress PHP CS Fixer config file
  * @author  Santiago Jiménez H.
+ * @version  0.0.1
  */
 
 $finder = (new PhpCsFixer\Config());
@@ -9,7 +10,7 @@ $finder = (new PhpCsFixer\Config());
 $header = <<<'EOF'
 @package PACKAGE
 @author  AUTHOR <EMAIL>
-@license LICENSE
+@version VERSION
 EOF;
 
 return (new PhpCsFixer\Config())
